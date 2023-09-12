@@ -2,8 +2,8 @@
 
 :root {
     --font-family: 'Montserrat', sans-serif;
-    --bg-color: #0AA1DD;
-    --primary-color: #E8F9FD;    
+    --bg-color: #208eef;
+    --primary-color: #001E6C;    
 }
 
 body {
@@ -22,11 +22,14 @@ body {
 
 h1 {
     font-size: 4em;
+    color: white;
 }
 
 h2 {
     text-transform: uppercase;
     font-size: 4em;
+    padding: 10px;
+    color: white;
 }
 
 h3 {
@@ -50,14 +53,13 @@ h3 {
 .btn-jogar {
     padding: 8px 15px;
     border: 0;
-    background: purple;
+    background: #E8630A;
     border-radius: 5px;
     margin-top: 20px;
-    box-shadow: 5px 5px 5px rgba(71, 12, 138, 0.642);
+    box-shadow: 3px 3px 10px #fcda00ba;
     color: white;
     font-weight: bolder;
     font-family: var(--font-family);
     cursor: pointer;
     
-
 }
