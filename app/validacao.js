@@ -7,7 +7,7 @@ function verificaSeOChutePossuiValorValido(chute) {
 
             document.body.innerHTML = `
                 <h2 style="color: red;">GAME OVER!!!!!</h2>
-                <h3 style="color: white;">Pressione o botão para jogar novamente.</h3>
+                <h4 style="color: white; margin:30px;">Pressione o botão para jogar novamente.</h4>
                 <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
             `
             document.body.style.backgroundColor = "black";
