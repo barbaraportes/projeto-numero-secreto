@@ -39,7 +39,7 @@ function verificaSeOChutePossuiValorValido(chute) {
         <div>O número secreto é menor <i class="fa-solid fa-arrow-down-long"></i>
         </div>
         `
-    } else {
+    } else if (numero < numeroSecreto) {
         elementoChute.innerHTML += `
         <div>O número secreto é maior <i class="fa-solid fa-arrow-up-long"></i></div>
         `
